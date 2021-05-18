@@ -14,6 +14,12 @@ const MainScreen = (props) => {
 					console.log('PRESSED');
 				}}
 			/>
+			<Button
+				title="PHOTO"
+				onPress={() => {
+					navigation.navigate('CameraScreen');
+				}}
+			/>
 		</View>
 	);
 };
